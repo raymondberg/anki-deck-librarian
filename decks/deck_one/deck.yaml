@@ -1,0 +1,12 @@
+id: 12345
+name: "Country Capitals"
+models:
+  - id: 1607392319
+    name: "Simple Model"
+    fields:
+      - "name": "Question"
+      - "name": "Answer"
+    templates:
+      - name: Card One
+        qfmt: "{{Question}}"
+        afmt: '{{FrontSide}}<hr id="answer">{{Answer}}'

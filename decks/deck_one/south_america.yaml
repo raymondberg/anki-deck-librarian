@@ -1,0 +1,4 @@
+cards:
+  model: "Simple Model"
+  notes:
+    - ["Capital of Argentina", "Buenos Aires"]
