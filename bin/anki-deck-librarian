@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+from anki_deck_librarian.cli import app
+
+if __name__ == '__main__':
+  app()

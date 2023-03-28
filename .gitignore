@@ -1,5 +1,7 @@
 *.pyc
+*.egg*
 
 build/
+dist/
 
 tags

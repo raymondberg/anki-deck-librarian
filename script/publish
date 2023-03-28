@@ -1,0 +1,10 @@
+rm -r dist
+python -m pip install build twine
+python -m build
+twine check dist/*.whl dist/*.tar.gz
+echo Run the following if you are confident
+echo
+echo twine upload -r testpypi dist/*.whl dist/*.tar.gz
+
+echo
+echo twine upload dist/*.whl dist/*.tar.gz
